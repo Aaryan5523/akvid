@@ -1,0 +1,141 @@
+=================================================================
+AKVID WEBSITE - COMPLETE INSTALLATION COMMANDS
+=================================================================
+
+STEP 1: Install All Dependencies at Once
+-----------------------------------------------------------------
+npm install
+
+This installs everything you need:
+- framer-motion (React animation library)
+- gsap (Professional animation library)
+- lenis (Smooth scrolling)
+- react-hook-form (Form handling)
+- lucide-react (Icon library)
+- All Next.js and React packages
+- All UI component libraries
+
+STEP 2: Run Development Server
+-----------------------------------------------------------------
+npm run dev
+
+Open http://localhost:3000 in your browser
+
+STEP 3: Build for Production
+-----------------------------------------------------------------
+npm run build
+
+STEP 4: Start Production Server
+-----------------------------------------------------------------
+npm start
+
+=================================================================
+TROUBLESHOOTING
+=================================================================
+
+If you get errors, try:
+
+1. Clear everything and reinstall:
+-----------------------------------------------------------------
+rm -rf node_modules package-lock.json
+npm install
+
+2. Clear Next.js cache:
+-----------------------------------------------------------------
+rm -rf .next
+npm run dev
+
+3. Use different port (if 3000 is in use):
+-----------------------------------------------------------------
+npm run dev -- -p 3001
+
+=================================================================
+INDIVIDUAL DEPENDENCY COMMANDS (if needed separately)
+=================================================================
+
+npm install framer-motion
+npm install gsap
+npm install lenis
+npm install react-hook-form
+npm install lucide-react
+
+=================================================================
+VERIFICATION
+=================================================================
+
+Check if all key dependencies are installed:
+-----------------------------------------------------------------
+npm list framer-motion gsap lenis react-hook-form lucide-react
+
+Should show all packages with version numbers
+
+=================================================================
+PACKAGE VERSIONS
+=================================================================
+
+The project uses:
+- Next.js: 13.5.1
+- React: 18.2.0
+- Node.js: v18+ or v20+ (recommended)
+- npm: v9+ or v10+
+
+Check your versions:
+-----------------------------------------------------------------
+node --version
+npm --version
+
+=================================================================
+COMPLETE DEPENDENCY LIST
+=================================================================
+
+Already in package.json (no need to install separately):
+- next
+- react
+- react-dom
+- tailwindcss
+- autoprefixer
+- postcss
+- @radix-ui/* (UI components)
+- class-variance-authority
+- clsx
+- tailwind-merge
+- And many more UI components
+
+Additional installed:
+- framer-motion
+- gsap
+- lenis
+- react-hook-form
+- lucide-react
+
+=================================================================
+DEPLOYMENT COMMANDS
+=================================================================
+
+For Netlify/Vercel:
+-----------------------------------------------------------------
+npm run build
+
+The build output is in the .next directory
+
+=================================================================
+DEVELOPMENT WORKFLOW
+=================================================================
+
+1. Install:     npm install
+2. Develop:     npm run dev
+3. Build:       npm run build
+4. Deploy:      Upload .next folder or use platform integration
+
+=================================================================
+DONE!
+=================================================================
+
+After running "npm install", everything is ready to use.
+Just run "npm run dev" and start developing!
+
+For detailed documentation, see:
+- README.md (full documentation)
+- QUICK_START.md (quick setup guide)
+- DEPENDENCIES.md (detailed dependency info)
+- PROJECT_SUMMARY.md (project overview)

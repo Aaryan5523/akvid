@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "id": "faucets",
+      "name": "Faucets & Taps",
+      "description": "Premium designer faucets and taps",
+      "image": "/images/products/action.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Action Faucet",
+      "category": "faucets",
+      "price": "₹1,250",
+      "description": "Premium chrome-plated Action series faucet",
+      "features": [
+        "Mirror finish",
+        "Durable brass body",
+        "Smooth operation"
+      ],
+      "image": "/images/products/Action.jpeg"
+    },
+    {
+      "id": 102,
+      "name": "Aden Faucet",
+      "category": "faucets",
+      "price": "₹1,350",
+      "description": "Modern Aden faucet with elegant design",
+      "features": [
+        "Rust resistant",
+        "Long-lasting shine",
+        "Easy installation"
+      ],
+      "image": "/images/products/Action.jpeg"
+    },
+    {
+      "id": 103,
+      "name": "Apollo Faucet",
+      "category": "faucets",
+      "price": "₹1,450",
+      "description": "Apollo series faucet for premium bathrooms",
+      "features": [
+        "Premium chrome finish",
+        "Leak-proof",
+        "Stylish handle"
+      ],
+      "image": "/images/products/apollo.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Arrow Faucet",
+      "category": "faucets",
+      "price": "₹1,300",
+      "description": "Arrow faucet with sleek contemporary look",
+      "features": [
+        "Compact design",
+        "High durability",
+        "Smooth water flow"
+      ],
+      "image": "/images/products/arrow.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Artize Faucet",
+      "category": "faucets",
+      "price": "₹1,600",
+      "description": "Artize luxury faucet with superior finish",
+      "features": [
+        "Luxury design",
+        "Premium build quality",
+        "Scratch resistant"
+      ],
+      "image": "/images/products/artize.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Candy Faucet",
+      "category": "faucets",
+      "price": "₹1,200",
+      "description": "Candy series faucet with curved body",
+      "features": [
+        "Unique design",
+        "Chrome finish",
+        "Durable cartridge"
+      ],
+      "image": "/images/products/candy.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Chery Faucet",
+      "category": "faucets",
+      "price": "₹1,280",
+      "description": "Chery faucet with elegant proportions",
+      "features": [
+        "Rust-proof",
+        "Smooth lever",
+        "Modern look"
+      ],
+      "image": "/images/products/chery.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Crazy Faucet",
+      "category": "faucets",
+      "price": "₹1,320",
+      "description": "Crazy faucet with bold and modern styling",
+      "features": [
+        "Heavy brass body",
+        "Premium polish",
+        "Long life"
+      ],
+      "image": "/images/products/crazy.jpg"
+    },
+    {
+      "id": 109,
+      "name": "Dezire Faucet",
+      "category": "faucets",
+      "price": "₹1,550",
+      "description": "Dezire faucet designed for luxury bathrooms",
+      "features": [
+        "Designer look",
+        "High gloss finish",
+        "Water efficient"
+      ],
+      "image": "/images/products/dezire.jpg"
+    }
+  ]
+}

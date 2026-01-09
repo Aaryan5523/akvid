@@ -7,6 +7,7 @@ import { Filter, Loader2 } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import productsData from '@/data/products.json';
+import ImageCarousel from '@/components/ImageCarousel';
 
 function ProductsContent() {
   const searchParams = useSearchParams();
@@ -78,8 +79,8 @@ function ProductsContent() {
               whileTap={{ scale: 0.95 }}
               onClick={() => setSelectedCategory('all')}
               className={`px-6 py-3 rounded-full font-medium transition-all ${selectedCategory === 'all'
-                  ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
+                ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg'
+                : 'bg-white text-gray-700 hover:bg-gray-100'
                 }`}
             >
               All Products
@@ -93,8 +94,8 @@ function ProductsContent() {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-3 rounded-full font-medium transition-all ${selectedCategory === category.id
-                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg'
-                    : 'bg-white text-gray-700 hover:bg-gray-100'
+                  ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg'
+                  : 'bg-white text-gray-700 hover:bg-gray-100'
                   }`}
               >
                 {category.name}
@@ -131,15 +132,11 @@ function ProductsContent() {
                     whileHover={{ y: -10 }}
                     className="bg-white rounded-2xl shadow-lg overflow-hidden group cursor-pointer"
                   >
-                    {/* IMAGE */}
-                    <div className="relative h-64 overflow-hidden">
-                      <Image
-                        src={product.image}
-                        alt={product.name}
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-110"
-                      />
-                    </div>
+                    {/* IMAGE CAROUSEL */}
+                    <ImageCarousel
+                      images={product.images || [product.image]}
+                      productName={product.name}
+                    />
 
                     {/* CONTENT */}
                     <div className="p-6">

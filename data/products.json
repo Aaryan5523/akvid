@@ -4,7 +4,19 @@
       "id": "faucets",
       "name": "Faucets & Taps",
       "description": "Premium designer faucets and taps",
-      "image": "/images/products/action.jpg"
+      "image": "/images/products/Action.jpg"
+    },
+    {
+      "id": "showers",
+      "name": "Shower Heads",
+      "description": "Luxury shower heads for a refreshing experience",
+      "image": "/images/products/aden.jpg"
+    },
+    {
+      "id": "accessories",
+      "name": "Bathroom Accessories",
+      "description": "Stylish and functional bathroom accessories",
+      "image": "/images/products/Apollo.jpeg"
     }
   ],
   "products": [
@@ -19,7 +31,11 @@
         "Durable brass body",
         "Smooth operation"
       ],
-      "image": "/images/products/Action.jpeg"
+      "image": "/images/products/Action.jpg",
+      "images": [
+        "/images/products/Action.jpg",
+        "/images/products/Action.jpg"
+      ]
     },
     {
       "id": 102,
@@ -32,7 +48,11 @@
         "Long-lasting shine",
         "Easy installation"
       ],
-      "image": "/images/products/Action.jpeg"
+      "image": "/images/products/aden.jpg",
+      "images": [
+        "/images/products/aden.jpg",
+        "/images/products/aden.jpg"
+      ]
     },
     {
       "id": 103,
@@ -45,7 +65,11 @@
         "Leak-proof",
         "Stylish handle"
       ],
-      "image": "/images/products/apollo.jpg"
+      "image": "/images/products/Apollo.jpeg",
+      "images": [
+        "/images/products/Apollo.jpeg",
+        "/images/products/Apollo.jpeg"
+      ]
     },
     {
       "id": 104,
@@ -58,7 +82,11 @@
         "High durability",
         "Smooth water flow"
       ],
-      "image": "/images/products/arrow.jpg"
+      "image": "/images/products/Arrow.jpeg",
+      "images": [
+        "/images/products/Arrow.jpeg",
+        "/images/products/Arrow.jpeg"
+      ]
     },
     {
       "id": 105,
@@ -71,7 +99,11 @@
         "Premium build quality",
         "Scratch resistant"
       ],
-      "image": "/images/products/artize.jpg"
+      "image": "/images/products/Artize.jpeg",
+      "images": [
+        "/images/products/Artize.jpeg",
+        "/images/products/Artize.jpeg"
+      ]
     },
     {
       "id": 106,
@@ -84,7 +116,11 @@
         "Chrome finish",
         "Durable cartridge"
       ],
-      "image": "/images/products/candy.jpg"
+      "image": "/images/products/Candy.jpeg",
+      "images": [
+        "/images/products/Candy.jpeg",
+        "/images/products/Candy.jpeg"
+      ]
     },
     {
       "id": 107,
@@ -97,7 +133,11 @@
         "Smooth lever",
         "Modern look"
       ],
-      "image": "/images/products/chery.jpg"
+      "image": "/images/products/Chery.jpeg",
+      "images": [
+        "/images/products/Chery.jpeg",
+        "/images/products/Chery.jpeg"
+      ]
     },
     {
       "id": 108,
@@ -110,7 +150,11 @@
         "Premium polish",
         "Long life"
       ],
-      "image": "/images/products/crazy.jpg"
+      "image": "/images/products/Crazy.jpeg",
+      "images": [
+        "/images/products/Crazy.jpeg",
+        "/images/products/Crazy.jpeg"
+      ]
     },
     {
       "id": 109,
@@ -123,7 +167,11 @@
         "High gloss finish",
         "Water efficient"
       ],
-      "image": "/images/products/dezire.jpg"
+      "image": "/images/products/Dezire.jpeg",
+      "images": [
+        "/images/products/Dezire.jpeg",
+        "/images/products/Dezire.jpeg"
+      ]
     }
   ]
 }

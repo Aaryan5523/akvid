@@ -5,6 +5,18 @@
       "name": "Faucets & Taps",
       "description": "Premium designer faucets and taps",
       "image": "/images/products/action.jpg"
+    },
+    {
+      "id": "showers",
+      "name": "Shower Heads",
+      "description": "Luxury shower heads for a refreshing experience",
+      "image": "/images/products/shower.jpg"
+    },
+    {
+      "id": "accessories",
+      "name": "Bathroom Accessories",
+      "description": "Stylish and functional bathroom accessories",
+      "image": "/images/products/accessories.jpg"
     }
   ],
   "products": [

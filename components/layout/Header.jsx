@@ -67,16 +67,8 @@ const Header = () => {
       >
         <TransitionLink href="/">
           <div className="flex items-center gap-2 cursor-pointer">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
-            </div>
             <div>
-              <h1 className={`text-2xl font-bold ${scrolled || !isHome ? 'text-gray-900' : 'text-white'}`}>
-                AKVID
-              </h1>
-              <p className={`text-xs ${scrolled || !isHome ? 'text-gray-600' : 'text-gray-200'}`}>
-                Sanitary Solutions
-              </p>
+              <img src="/images/logo.svg" alt="AKVID" className="h-14 w-auto" />
             </div>
           </div>
         </TransitionLink>
@@ -105,11 +97,8 @@ const Header = () => {
       <div className={`flex lg:hidden items-center justify-between px-6 py-4 transition-all duration-300 ${scrolled || !isHome ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
         <TransitionLink href="/">
           <div className="flex items-center gap-2 cursor-pointer">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
             <div>
-              <h1 className={`text-xl font-bold ${scrolled || !isHome ? 'text-gray-900' : 'text-white'}`}>AKVID</h1>
+              <img src="/images/logo.svg" alt="AKVID" className="h-10 w-auto" />
             </div>
           </div>
         </TransitionLink>

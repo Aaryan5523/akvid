@@ -116,7 +116,7 @@ export default function Contact() {
               {
                 icon: MapPin,
                 title: 'Visit Us',
-                text: 'Industrial Area, Phase-2, New Delhi – 110020, India',
+                text: 'Plot No. 4481, Nr. Gaushala Circle, "L" Road, Phase-3, DARED, JAMNAGAR - 361 005. (Gujarat) INDIA',
               },
               {
                 icon: Phone,

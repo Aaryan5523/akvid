@@ -26,8 +26,8 @@ const Footer = () => {
     { icon: Facebook, href: 'https://www.facebook.com/share/17XzYCK9ma/', label: 'Facebook' },
     { icon: Twitter, href: 'https://x.com/ABath80272', label: 'Twitter' },
     { icon: Instagram, href: 'https://www.instagram.com/aaskasanitation?igsh=MzcxbGsyejN3eHpq', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/akvid-bath-kaushik-patel-416439178?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
+    { icon: Youtube, href: 'https://youtube.com/@aaska_sanitation?si=xh3rrpY9zAABti94', label: 'YouTube' },
   ];
 
   return (
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">AKVID</h3>
-                <p className="text-sm text-gray-400">Sanitary Solutions</p>
+                <p className="text-sm text-gray-400">Bath Fitting</p>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
@@ -111,7 +111,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Industrial Area, Phase-2, New Delhi, India
+                  Plot No. 4481, Nr. Gaushala Circle, "L" Road, Phase-3, DARED, JAMNAGAR-361 005. (Gujarat) INDIA
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -138,7 +138,7 @@ const Footer = () => {
           className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-6"
         >
           <p className="text-gray-400 text-sm text-center md:text-left">
-            &copy; {currentYear} AKVID Sanitary Products. All rights reserved.
+            &copy; {currentYear} AKVID Bath Fitting. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4">

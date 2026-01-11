@@ -74,7 +74,7 @@ const Loader = () => {
               transition={{ delay: 0.3 }}
               className="text-gray-600 mb-8"
             >
-              Sanitary Solutions
+              Bath Fitting
             </motion.p>
 
             <div className="w-64 h-2 bg-gray-200 rounded-full overflow-hidden mx-auto">

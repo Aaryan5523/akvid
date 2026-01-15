@@ -1,4 +1,4 @@
-# AKVID - Sanitary Products Factory Website
+# JAYESH JEWELLERS
 
 A beautiful, fully animated Next.js website for AKVID sanitary products factory featuring smooth animations, modern design, and comprehensive functionality.
 
@@ -233,4 +233,5 @@ For support, email akvidbathfittings@gmail.com or call +91 99799 60096
 "# AKVID" 
 "# AKVID" 
 # akvid
+# jeweller-store
 # jeweller-store

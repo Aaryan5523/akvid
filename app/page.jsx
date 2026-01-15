@@ -9,6 +9,7 @@ import { ChevronRight, Award, Users, Globe, Download, ArrowRight } from 'lucide-
 import productsData from '@/data/products.json';
 import { Analytics } from "@vercel/analytics/next";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -19,22 +20,22 @@ export default function Home() {
 
   const slides = [
     {
-      image: 'https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Premium Sanitary Solutions',
-      subtitle: 'Elevate Your Bathroom Experience',
-      description: 'Discover our range of world-class sanitary products',
+      image: 'https://c0.wallpaperflare.com/preview/984/867/753/jewellery-gold-wedding-indian.jpg',
+      title: 'Premium Jewellery Collection',
+      subtitle: 'Exquisite Designs for Every Occasion',
+      description: 'Discover timeless pieces crafted to perfection',
     },
     {
-      image: 'https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Luxury Meets Functionality',
-      subtitle: 'Innovation in Every Product',
-      description: 'Experience the perfect blend of design and durability',
+      image: 'https://c0.wallpaperflare.com/preview/56/821/69/gold-desktop-celebration-jewelry.jpg',
+      title: 'Jewellery that Defines You',
+      subtitle: 'Crafted with Passion and Precision',
+      description: 'Elevate your style with our exclusive range of jewellery',
     },
     {
-      image: 'https://images.pexels.com/photos/342800/pexels-photo-342800.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      title: 'Quality You Can Trust',
-      subtitle: '25+ Years of Excellence',
-      description: 'Industry-leading products for modern bathrooms',
+      image: 'https://w0.peakpx.com/wallpaper/1017/335/HD-wallpaper-jewellery-gold-gemstone-jewellery-ring-silver.jpg',
+      title: 'Exquisite Jewellery for Every Moment',
+      subtitle: 'Shine Bright, Shine Always',
+      description: 'Find the perfect piece to celebrate your unique style',
     },
   ];
 
@@ -252,33 +253,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Download Our Product Catalog
-            </h2>
-            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
-              Get complete information about all our products in a comprehensive PDF catalog
-            </p>
-            <motion.a
-              href="/Akvid Catalog 2023.pdf"
-              download
-              whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-600 rounded-full font-semibold shadow-2xl"
-            >
-              <Download size={24} />
-              Download Catalog
-            </motion.a>
-          </motion.div>
-        </div>
-      </section>
+
     </div>
   );
 }

@@ -74,7 +74,7 @@ export default function About() {
       <section className="relative h-[70vh] flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1600)' }}
+          style={{ backgroundImage: 'url(https://etimg.etb2bimg.com/thumb/msid-114455376,imgsize-122540,width-1200,height=627,overlay-etretail,resizemode-75/apparel-fashion/jewellery/gold-prices-scale-80k-peak-ahead-of-dhanteras-4k-hike-in-6-days.jpg)' }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
         </div>
@@ -86,7 +86,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            About AKVID
+            About Jayesh Jewellers
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -94,7 +94,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto"
           >
-            25+ years of excellence in manufacturing premium sanitary products
+            25+ years of excellence in premium jewellery products
           </motion.p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function About() {
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <div
                   className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: 'url(https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800)' }}
+                  style={{ backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOJiWvVsNtWe5nuADH26lp-oZbs4gu7vOMg&s)' }}
                 />
               </div>
             </motion.div>
@@ -124,13 +124,13 @@ export default function About() {
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-4">
-                Founded in 1998, AKVID has grown from a small manufacturing unit to one of India's leading
-                sanitary products manufacturers. Our journey has been driven by an unwavering commitment to
+                Founded in 1998, Jayesh Jewellers has grown from a small manufacturing unit to one of India's leading
+                jewellery products manufacturers. Our journey has been driven by an unwavering commitment to
                 quality, innovation, and customer satisfaction.
               </p>
               <p className="text-lg text-gray-600 mb-4">
                 With state-of-the-art manufacturing facilities and a team of experienced professionals, we
-                produce a comprehensive range of bathroom solutions that combine aesthetic appeal with
+                produce a comprehensive range of jewellery products that combine aesthetic appeal with
                 functional excellence.
               </p>
             </motion.div>

@@ -9,25 +9,24 @@ const Footer = () => {
 
   const footerLinks = {
     products: [
-      { name: 'Wash Basins', href: '/products?category=wash-basins' },
-      { name: 'Toilets & WCs', href: '/products?category=toilets' },
-      { name: 'Faucets & Taps', href: '/products?category=faucets' },
-      { name: 'Showers', href: '/products?category=showers' },
-      { name: 'Accessories', href: '/products?category=accessories' },
+      { name: 'Gold', href: '/products?category=Gold' },
+      { name: 'Silver', href: '/products?category=Silver' },
+      { name: 'Platinum 925', href: '/products?category=Platinum 925' }
     ],
     company: [
+      { name: 'Home', href: '/' },
+
       { name: 'About Us', href: '/about' },
-      { name: 'Contact', href: '/contact' },
       { name: 'Products', href: '/products' },
     ],
   };
 
   const socialLinks = [
-    { icon: Facebook, href: 'https://www.facebook.com/share/17XzYCK9ma/', label: 'Facebook' },
-    { icon: Twitter, href: 'https://x.com/ABath80272', label: 'Twitter' },
-    { icon: Instagram, href: 'https://www.instagram.com/aaskasanitation?igsh=MzcxbGsyejN3eHpq', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/akvid-bath-kaushik-patel-416439178?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn' },
-    { icon: Youtube, href: 'https://youtube.com/@aaska_sanitation?si=xh3rrpY9zAABti94', label: 'YouTube' },
+    { icon: Facebook, href: '', label: 'Facebook' },
+    { icon: Twitter, href: '', label: 'Twitter' },
+    { icon: Instagram, href: '', label: 'Instagram' },
+    { icon: Linkedin, href: '', label: 'LinkedIn' },
+    { icon: Youtube, href: '', label: 'YouTube' },
   ];
 
   return (
@@ -42,15 +41,15 @@ const Footer = () => {
           >
             <div className="flex items-center gap-2 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
+                <span className="text-white font-bold text-xl">JJ</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold">AKVID</h3>
-                <p className="text-sm text-gray-400">Bath Fitting</p>
+                <h3 className="text-2xl font-bold">Jayesh</h3>
+                <p className="text-sm text-gray-400">Jewellery</p>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Leading manufacturer of premium sanitary products. Quality, innovation, and excellence in every product.
+              Leading of premium jewellery products. Quality, innovation, and excellence in every product.
             </p>
           </motion.div>
 
@@ -111,21 +110,16 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Plot No. 4481, Nr. Gaushala Circle, "L" Road, Phase-3, DARED, JAMNAGAR-361 005. (Gujarat) INDIA
+                  Behind the old railway station, Nawagam (Ghed), next to Keshubhai's hotel, Jamnagar, Gujarat, India - 361005
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-blue-400 flex-shrink-0" />
-                <a href="tel:+919979960096" className="text-gray-400 hover:text-white transition-colors">
-                  +91 99799 60096
+                <a href="tel:+917016579063" className="text-gray-400 hover:text-white transition-colors">
+                  +91 70165 79063
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail size={20} className="text-blue-400 flex-shrink-0" />
-                <a href="mailto:akvidbathfittings@gmail.com" className="text-gray-400 hover:text-white transition-colors">
-                  akvidbathfittings@gmail.com
-                </a>
-              </li>
+
             </ul>
           </motion.div>
         </div>
@@ -138,7 +132,7 @@ const Footer = () => {
           className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-6"
         >
           <p className="text-gray-400 text-sm text-center md:text-left">
-            &copy; {currentYear} AKVID Bath Fitting. All rights reserved.
+            &copy; {currentYear} Jayesh Jewellers. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4">

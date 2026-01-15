@@ -1,29 +1,29 @@
 {
   "categories": [
     {
-      "id": "faucets",
-      "name": "Faucets & Taps",
+      "id": "Gold",
+      "name": "Gold",
       "description": "Premium designer faucets and taps",
-      "image": "/images/products/Action.jpg"
+      "image": "/images/products/1.jpg"
     },
     {
-      "id": "showers",
-      "name": "Shower Heads",
+      "id": "Silver",
+      "name": "Silver",
       "description": "Luxury shower heads for a refreshing experience",
-      "image": "/images/products/aden.jpg"
+      "image": "/images/products/2.jpg"
     },
     {
-      "id": "accessories",
-      "name": "Bathroom Accessories",
-      "description": "Stylish and functional bathroom accessories",
-      "image": "/images/products/Apollo.jpeg"
+      "id": "Platinum 925",
+      "name": "Platinum 925",
+      "description": "Elegant wash basins to enhance your bathroom decor",
+      "image": "/images/products/3.jpg"
     }
   ],
   "products": [
     {
       "id": 101,
       "name": "Action Faucet",
-      "category": "faucets",
+      "category": "Gold",
       "price": "₹1,250",
       "description": "Premium chrome-plated Action series faucet",
       "features": [
@@ -31,147 +31,33 @@
         "Durable brass body",
         "Smooth operation"
       ],
-      "image": "/images/products/Action.jpg",
-      "images": [
-        "/images/products/Action.jpg",
-        "/images/products/Action.jpg"
-      ]
+      "image": "/images/products/1.jpg"
     },
     {
       "id": 102,
-      "name": "Aden Faucet",
-      "category": "faucets",
-      "price": "₹1,350",
-      "description": "Modern Aden faucet with elegant design",
+      "name": "Splash Shower Head",
+      "category": "Silver",
+      "price": "₹2,300",
+      "description": "High-pressure Silver series shower head",
       "features": [
-        "Rust resistant",
-        "Long-lasting shine",
+        "Anti-clog nozzles",
+        "360-degree swivel",
         "Easy installation"
       ],
-      "image": "/images/products/aden.jpg",
-      "images": [
-        "/images/products/aden.jpg",
-        "/images/products/aden.jpg"
-      ]
+      "image": "/images/products/2.jpg"
     },
     {
       "id": 103,
-      "name": "Apollo Faucet",
-      "category": "faucets",
-      "price": "₹1,450",
-      "description": "Apollo series faucet for premium bathrooms",
+      "name": "Elegance Wash Basin",
+      "category": "Platinum 925",
+      "price": "₹3,750",
+      "description": "Stylish Platinum 925 wash basin",
       "features": [
-        "Premium chrome finish",
-        "Leak-proof",
-        "Stylish handle"
+        "Scratch-resistant surface",
+        "Modern design",
+        "Easy to clean"
       ],
-      "image": "/images/products/Apollo.jpeg",
-      "images": [
-        "/images/products/Apollo.jpeg",
-        "/images/products/Apollo.jpeg"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "Arrow Faucet",
-      "category": "faucets",
-      "price": "₹1,300",
-      "description": "Arrow faucet with sleek contemporary look",
-      "features": [
-        "Compact design",
-        "High durability",
-        "Smooth water flow"
-      ],
-      "image": "/images/products/Arrow.jpeg",
-      "images": [
-        "/images/products/Arrow.jpeg",
-        "/images/products/Arrow.jpeg"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "Artize Faucet",
-      "category": "faucets",
-      "price": "₹1,600",
-      "description": "Artize luxury faucet with superior finish",
-      "features": [
-        "Luxury design",
-        "Premium build quality",
-        "Scratch resistant"
-      ],
-      "image": "/images/products/Artize.jpeg",
-      "images": [
-        "/images/products/Artize.jpeg",
-        "/images/products/Artize.jpeg"
-      ]
-    },
-    {
-      "id": 106,
-      "name": "Candy Faucet",
-      "category": "faucets",
-      "price": "₹1,200",
-      "description": "Candy series faucet with curved body",
-      "features": [
-        "Unique design",
-        "Chrome finish",
-        "Durable cartridge"
-      ],
-      "image": "/images/products/Candy.jpeg",
-      "images": [
-        "/images/products/Candy.jpeg",
-        "/images/products/Candy.jpeg"
-      ]
-    },
-    {
-      "id": 107,
-      "name": "Chery Faucet",
-      "category": "faucets",
-      "price": "₹1,280",
-      "description": "Chery faucet with elegant proportions",
-      "features": [
-        "Rust-proof",
-        "Smooth lever",
-        "Modern look"
-      ],
-      "image": "/images/products/Chery.jpeg",
-      "images": [
-        "/images/products/Chery.jpeg",
-        "/images/products/Chery.jpeg"
-      ]
-    },
-    {
-      "id": 108,
-      "name": "Crazy Faucet",
-      "category": "faucets",
-      "price": "₹1,320",
-      "description": "Crazy faucet with bold and modern styling",
-      "features": [
-        "Heavy brass body",
-        "Premium polish",
-        "Long life"
-      ],
-      "image": "/images/products/Crazy.jpeg",
-      "images": [
-        "/images/products/Crazy.jpeg",
-        "/images/products/Crazy.jpeg"
-      ]
-    },
-    {
-      "id": 109,
-      "name": "Dezire Faucet",
-      "category": "faucets",
-      "price": "₹1,550",
-      "description": "Dezire faucet designed for luxury bathrooms",
-      "features": [
-        "Designer look",
-        "High gloss finish",
-        "Water efficient"
-      ],
-      "image": "/images/products/Dezire.jpeg",
-      "images": [
-        "/images/products/Dezire.jpeg",
-        "/images/products/Dezire.jpeg"
-      ]
+      "image": "/images/products/3.jpg"
     }
   ]
 }

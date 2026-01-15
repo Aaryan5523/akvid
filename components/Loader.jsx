@@ -55,7 +55,7 @@ const Loader = () => {
               className="mb-8"
             >
               <div className="w-24 h-24 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center mx-auto shadow-2xl">
-                <span className="text-white font-bold text-4xl">A</span>
+                <span className="text-white font-bold text-4xl">JJ</span>
               </div>
             </motion.div>
 
@@ -65,7 +65,7 @@ const Loader = () => {
               transition={{ delay: 0.2 }}
               className="text-4xl font-bold text-gray-900 mb-2"
             >
-              AKVID
+              Jayesh
             </motion.h2>
 
             <motion.p
@@ -74,7 +74,7 @@ const Loader = () => {
               transition={{ delay: 0.3 }}
               className="text-gray-600 mb-8"
             >
-              Bath Fitting
+              Jewellers
             </motion.p>
 
             <div className="w-64 h-2 bg-gray-200 rounded-full overflow-hidden mx-auto">

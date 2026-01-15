@@ -53,7 +53,6 @@ const Header = () => {
     { name: 'Home', href: '/' },
     { name: 'Products', href: '/products' },
     { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
   ];
 
   const buttonColor = isHome && !scrolled ? 'text-white' : 'text-black';
@@ -68,7 +67,7 @@ const Header = () => {
         <TransitionLink href="/">
           <div className="flex items-center gap-2 cursor-pointer">
             <div>
-              <img src="/images/logo.svg" alt="AKVID" className="h-14 w-auto" />
+              {/*<img src="/images/logo.png" alt="AKVID" className="h-20 w-auto" />*/}
             </div>
           </div>
         </TransitionLink>
@@ -81,15 +80,6 @@ const Header = () => {
               </span>
             </TransitionLink>
           ))}
-
-          <a
-            href="/Akvid Catalog 2023.pdf"
-            download
-            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full font-medium flex items-center gap-2 shadow-lg"
-          >
-            <Download size={18} />
-            Catalog
-          </a>
         </nav>
       </div>
 
@@ -98,7 +88,7 @@ const Header = () => {
         <TransitionLink href="/">
           <div className="flex items-center gap-2 cursor-pointer">
             <div>
-              <img src="/images/logo.svg" alt="AKVID" className="h-10 w-auto" />
+              {/*<img src="/images/logo.svg" alt="AKVID" className="h-10 w-auto" />*/}
             </div>
           </div>
         </TransitionLink>
@@ -131,14 +121,7 @@ const Header = () => {
           </TransitionLink>
         ))}
 
-        <a
-          href="/Akvid Catalog 2023.pdf"
-          download
-          className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full font-medium flex items-center gap-2 shadow-lg mt-6"
-        >
-          <Download size={18} />
-          Catalog
-        </a>
+
       </div>
     </header>
   );

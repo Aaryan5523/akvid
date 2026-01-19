@@ -7,6 +7,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ChevronRight, Award, Users, Globe, Download, ArrowRight } from 'lucide-react';
 import productsData from '@/data/products.json';
+import { Analytics } from "@vercel/analytics/next"
 
 gsap.registerPlugin(ScrollTrigger);
 

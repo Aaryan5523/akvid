@@ -1,29 +1,29 @@
 {
   "categories": [
     {
-      "id": "Gold",
-      "name": "Gold",
+      "id": "BIB COCK",
+      "name": "Bib Cock",
       "description": "Premium designer faucets and taps",
-      "image": "/images/products/1.jpg"
+      "image": "/images/products/IMG_20191118_142336.jpg"
     },
     {
-      "id": "Silver",
-      "name": "Silver",
+      "id": "LONG BODY",
+      "name": "Long Body",
       "description": "Luxury shower heads for a refreshing experience",
-      "image": "/images/products/2.jpg"
+      "image": "/images/products/IMG_20191118_142634.jpg"
     },
     {
-      "id": "Platinum 925",
-      "name": "Platinum 925",
+      "id": "PILLAR COCK",
+      "name": "Pillar Cock",
       "description": "Elegant wash basins to enhance your bathroom decor",
-      "image": "/images/products/3.jpg"
+      "image": "/images/products/IMG_20191118_142713.jpg"
     }
   ],
   "products": [
     {
       "id": 101,
       "name": "Action Faucet",
-      "category": "Gold",
+      "category": "BIB COCK",
       "price": "₹1,250",
       "description": "Premium chrome-plated Action series faucet",
       "features": [
@@ -31,33 +31,85 @@
         "Durable brass body",
         "Smooth operation"
       ],
-      "image": "/images/products/1.jpg"
+      "image": "/images/products/IMG_20191118_142754.jpg"
     },
     {
       "id": 102,
       "name": "Splash Shower Head",
-      "category": "Silver",
+      "category": "LONG BODY ",
       "price": "₹2,300",
-      "description": "High-pressure Silver series shower head",
+      "description": "High-pressure Long Body  series shower head",
       "features": [
         "Anti-clog nozzles",
         "360-degree swivel",
         "Easy installation"
       ],
-      "image": "/images/products/2.jpg"
+      "image": "/images/products/IMG_20191118_142713.jpg"
     },
     {
       "id": 103,
       "name": "Elegance Wash Basin",
-      "category": "Platinum 925",
+      "category": "PILLAR COCK",
       "price": "₹3,750",
-      "description": "Stylish Platinum 925 wash basin",
+      "description": "Stylish Pillar Cock wash basin",
       "features": [
         "Scratch-resistant surface",
         "Modern design",
         "Easy to clean"
       ],
-      "image": "/images/products/3.jpg"
+      "image": "/images/products/IMG_20191118_142926.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Action Faucet",
+      "category": "BIB COCK",
+      "price": "₹1,250",
+      "description": "Premium chrome-plated Action series faucet",
+      "features": [
+        "Mirror finish",
+        "Durable brass body",
+        "Smooth operation"
+      ],
+      "image": "/images/products/IMG_20191118_144555.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Splash Shower Head",
+      "category": "LONG BODY",
+      "price": "₹2,300",
+      "description": "High-pressure Long Body  series shower head",
+      "features": [
+        "Anti-clog nozzles",
+        "360-degree swivel",
+        "Easy installation"
+      ],
+      "image": "/images/products/5.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Elegance Wash Basin",
+      "category": "PILLAR COCK",
+      "price": "₹3,750",
+      "description": "Stylish Pillar Cock wash basin",
+      "features": [
+        "Scratch-resistant surface",
+        "Modern design",
+        "Easy to clean"
+      ],
+      "image": "/images/products/6.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Action Faucet",
+      "category": "LONG BODY",
+      "price": "₹1,250",
+      "description": "Premium chrome-plated Action series faucet",
+      "features": [
+        "Mirror finish",
+        "Durable brass body",
+        "Smooth operation"
+      ],
+      "image": "/images/products/IMG_20191118_144555.jpg"
     }
   ]
 }

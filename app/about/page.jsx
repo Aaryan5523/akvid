@@ -74,7 +74,7 @@ export default function About() {
       <section className="relative h-[70vh] flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://etimg.etb2bimg.com/thumb/msid-114455376,imgsize-122540,width-1200,height=627,overlay-etretail,resizemode-75/apparel-fashion/jewellery/gold-prices-scale-80k-peak-ahead-of-dhanteras-4k-hike-in-6-days.jpg)' }}
+          style={{ backgroundImage: 'url(https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?cs=srgb&dl=pexels-christa-grover-977018-1910472.jpg&fm=jpg)' }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
         </div>
@@ -86,7 +86,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            About Jayesh Jewellers
+            About AKVID
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -94,10 +94,10 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto"
           >
-            25+ years of excellence in premium jewellery products
+            25+ years of excellence in premium AKVID Bath Fittings
           </motion.p>
         </div>
-      </section>
+      </section >
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -111,7 +111,7 @@ export default function About() {
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <div
                   className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOJiWvVsNtWe5nuADH26lp-oZbs4gu7vOMg&s)' }}
+                  style={{ backgroundImage: 'url(https://st.hzcdn.com/simgs/b071b10205cf04ef_14-6054/_.jpg)' }}
                 />
               </div>
             </motion.div>
@@ -217,6 +217,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </div>
+    </div >
   );
 }

@@ -124,7 +124,7 @@ export default function About() {
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-4">
-                Founded in 1998, Jayesh Jewellers has grown from a small manufacturing unit to one of India's leading
+                Founded in 1998, AKVID has grown from a small manufacturing unit to one of India's leading
                 jewellery products manufacturers. Our journey has been driven by an unwavering commitment to
                 quality, innovation, and customer satisfaction.
               </p>
